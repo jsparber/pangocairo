@@ -31,13 +31,13 @@ git = "https://github.com/gtk-rs/lgpl-docs"
 [dependencies]
 libc = "0.2"
 bitflags = "1.0"
-glib-sys = { git = "https://github.com/gtk-rs/sys" }
-gobject-sys = { git = "https://github.com/gtk-rs/sys" }
-pango-sys = { git = "https://github.com/gtk-rs/sys" }
-cairo-sys-rs = { git = "https://github.com/gtk-rs/cairo" }
-pangocairo-sys = { git = "https://github.com/gtk-rs/sys" }
-glib = { git = "https://github.com/gtk-rs/glib" }
-pango = { git = "https://github.com/gtk-rs/pango" }
+glib-sys = { git = "https://github.com/jsparber/sys" }
+gobject-sys = { git = "https://github.com/jsparber/sys" }
+pango-sys = { git = "https://github.com/jsparber/sys" }
+cairo-sys-rs = { git = "https://github.com/jsparber/cairo" }
+pangocairo-sys = { git = "https://github.com/jsparber/sys" }
+glib = { git = "https://github.com/jparber/glib" }
+pango = { git = "https://github.com/jsparber/pango" }
 cairo-rs = { git = "https://github.com/gtk-rs/cairo" }
 
 [dev-dependencies]
